@@ -1,9 +1,10 @@
 # EasyIPinfo - 简单高效的IP信息查询工具
 
-EasyIPinfo是一个轻量级的命令行工具，用于快速查询IP地址的详细信息，支持macOS和Linux系统。
+EasyIPinfo是一个轻量级的命令行工具，使用curl请求ipinfo.io API来快速查询IP地址的详细信息。本工具对ipinfo.io的数据进行格式化处理，以简洁易读的方式呈现，支持macOS和Linux系统。
 
 ## 功能特点
 
+- 基于curl ipinfo.io API进行IP信息查询
 - 快速查询任意IP地址的基本信息或完整信息
 - 支持从剪贴板自动获取IP地址
 - 安装简便，使用别名`a`快速访问
